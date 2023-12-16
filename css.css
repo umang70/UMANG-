@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  header {
+    height: 54px;
+    background-color: #2874f0;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-stretch: expanded;
+  }
+  
+  header img {
+    margin: 0px 6px 0px 161px;
+  }
+  
+  header input {
+    padding: 10px;
+    margin: 7px 0px 7px 0px;
+    width: 554px;
+  }
+  
+  header button {
+    color: #2874f0;
+    font-weight: 500;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 32px;
+    padding: 5px 40px;
+    border: 1px solid #dbdbdb;
+    margin: 0px 0px 0px 190px;
+    font-size: 16px;
+  }
+  
+  .more {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 108px;
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    margin: 0px 0px -3px 42px;
+  }
+  
+  .cart {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 108px;
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    margin: 0px 0px -3px 58px;
+  }
+  
+  .container {
+    min-height: calc(100vh - 54px - 29vh);
+  }
+  
+  footer {
+    height: 29vh;
+    display: flex;
+    background-color: #172337;
+    justify-content: center;
+  }
+  
+  .about {
+    padding: 10px 40px;
+    color: white;
+  }
+  .help {
+    padding: 10px 40px;
+    color: whitesmoke;
+  }
+  .policy {
+    padding: 10px 40px;
+    color: white;
+  }
+  .social {
+    padding: 10px 40px;
+    color: white;
+  }
+  a {
+    color: yellowgreen;
+    text-decoration: none;
+  }
+  a:hover {
+    color: lightcoral;
+  }
+  
+  .slider {
+    /* margin: auto;
+         width:45vw; */
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .deals {
+    margin: 3px 20px;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    background-color: whitesmoke;
+  }
+  
+  .deals2{
+      margin: 0px 20px;
+      display: flex;
+      height: 400px;
+      justify-content: center;
+      background-color: whitesmoke;
+  
+  }
+  
+  .deals3{
+      margin: 0px 20px 20px 20px;
+      display: flex;
+      height: 400px;
+      justify-content: center;
+      background-color: whitesmoke;
+  }
+  
+  h1 {
+    font-size: 20px;
+  }
+  
+  hr {
+    color: white;
+  }
+  
+  .first {
+      display: flex;
+      flex-direction: column;
+    align-self: center;
+    margin: 5px 10px;
+  
+    text-align: center;
+  }
+  .second {
+      display: flex;
+      flex-direction: column;
+    align-self: center;
+    margin: 5px 10px;
+    text-align: center;
+  }
+  .third {
+      display: flex;
+      flex-direction: column;
+    align-self: center;
+    margin: 5px 10px;
+    text-align: center;
+  }
+  .forth {
+      display: flex;
+      flex-direction: column;
+    align-self: center;
+    margin: 5px 10px;
+    text-align: center;
+  }
+  .fifth {
+      display: flex;
+      flex-direction: column;
+    align-self: center;
+    margin: 5px 10px;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .heading{
+      margin: 20px 18px 1px 18px ;
+      padding: 20px 40px;
+      display: block;
+      background-color: whitesmoke;
+  }
+  .heading2{
+      margin: 20px 18px 2px 18px ;
+      display: block;
+      background-color: whitesmoke;
+      padding: 20px 40px;
+  }
+  .heading3{
+      margin: 20px 18px 2px 18px ;
+      display: block;
+      background-color: whitesmoke;
+      padding: 20px 40px;
+  }
+  
